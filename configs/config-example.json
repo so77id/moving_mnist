@@ -1,0 +1,23 @@
+{
+  "dataset": {
+    "parameters": {
+      "name": "mmnist",
+      "load_type": "video",
+      "channels": 1,
+      "n_classes": 10,
+      "filetype": "jpg",
+      "width": 64,
+      "height": 64,
+      "seq_len": 20,
+      "seqs_per_class": 10,
+      "seqs_per_class_test": 10,
+      "num_sz": 28,
+      "nums_per_image": 1
+    },
+    "original": {
+      "dataset_path": "./datasets/MMNIST/dataset",
+      "train_list": "dataset_train.list",
+      "test_list": "dataset_test.list"
+    }
+  }
+}
